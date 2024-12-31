@@ -7,7 +7,7 @@ variable "instance_type" {
 variable "region" {
   description = "region in aws"
   type        = string
-  default     = "us-east-1"
+  default     = "us-east-2"
 
 }
 
@@ -18,3 +18,9 @@ variable "cidr_block" {
 
 }
 
+variable "ami" {
+  description = "ami ubuntu "
+  type        = string
+  default     = "ami-036841078a4b68e14"
+
+}

@@ -5,10 +5,9 @@ resource "aws_vpc" "Demo_VPC" { # VPC Name
     Name = "Vpc_Demo"
   }
 }
-
 # AWS EC2
 resource "aws_instance" "terra_Demo" { # Name For Teraaform
-  ami           = "ami-0b4624933067d393a" # AMI Linux OS (Ubuntu 22.04)
+  ami           = var.ami              # AMI Linux OS (Ubuntu 22.04)
   instance_type = var.instance_type
 
   tags = {
