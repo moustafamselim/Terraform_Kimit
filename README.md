@@ -6,12 +6,13 @@
 - Create all required variables
 - Share the state file on AWS_S3 
 - Show in the output file
-  > vpc_tage 
-  > vpc_cidr 
-  >instance_tage 
-  >instance_type 
-  >ami 
-  >instance_Public _ip 
+  
+      vpc_tage 
+      vpc_cidr 
+      instance_tage 
+      instance_type 
+      ami 
+      instance_Public _ip 
      
 - Create Repo in Github and Ignore Files (.terraform - .terraformlockhcl)
 - Last Destroy all them
